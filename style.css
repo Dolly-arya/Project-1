@@ -1,0 +1,125 @@
+@import url("https://fonts.googoleapis.com/css2?family=Robot&display=swap");
+/* css variables */
+:root{
+    --primary:#16a083;
+    --hover:#119764;
+    --white:#fff;
+    --dark:#222;
+    --bd-light:#f4f4f4;
+    --unchecked:#aaa;
+    --danger:#cc1717;
+
+    --font:"Roboto",sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* common classes */
+.container{
+    max-width: 1200px;
+    width:90%;
+    margin: auto;
+}
+
+/* menu css */
+.navbar{
+    position: fixed;
+    top:0;
+    background-color: var(--white);
+    width:100%;
+    color:var(--dark);
+    height:60px;
+    opacity:1;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.4);
+    z-index:9999;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.menu-items{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    justify-content: space-evenly;
+}
+
+.menu-items li{
+    margin-left: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.navbar-container a{
+    text-decoration: none;
+}
+.navbar-container .logo{
+    font-size: 2rem;
+    color:var(--primary);
+    font-weight: bold;
+}
+
+.menu-items li a{
+    color: var(--dark);
+    font-weight: 500;
+    transition: color 0.4s ease-in;
+}
+
+.menu-items li a:hover{
+    color: var(--hover);
+}
+
+.navbar-toggler{
+    display: none;
+}
+
+/showcase (home section)/
+.showcase-area{
+    height:100vh;
+    background:linear-gradient(
+        rgba(240,240,240,0.14),
+        rgba(255,255,255,0.336)
+        ),
+        url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.showcase-area .showcase-container {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    flex-direction:column;
+    gap:10px;
+    line-height:1.1rem;
+    font-size:1.4rem;
+}
+
+.showcase-container .main-title{
+    font-size:4 rem;
+    color:var(--primary);
+}
+
+
+#about
+
+/* food category */
+
+#food-category{
+    padding:
+}
